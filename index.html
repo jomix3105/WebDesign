@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #1a1f2e;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            opacity: 0.8;
+        }
+        .text-title2{
+            padding-left: 30%;
+            
+        }
+
+        nav a:hover {
+            opacity: 1;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #1a1f2e;
+            color: white;
+            padding: 4rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            opacity: 0.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-image {
+            flex: 1;
+            
+            height: 300px;
+            border-radius: 8px;
+        }
+
+        .image{
+            flex: 1;
+            width: 100%;
+            height: 300px;
+            border-radius: 8px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 3%;
+            background-color: white;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            
+        }
+
+        .feature-card {
+            
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        /* Testimonial Section */
+        .testimonial {
+            background-color: #f5f5f5;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .testimonial blockquote {
+            max-width: 800px;
+            margin: 0 auto;
+            font-style: italic;
+            color: #555;
+        }
+
+        .testimonial cite {
+            display: block;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        /* CTA Section */
+        .cta {
+            background-color: white;
+            color: black;
+            padding: 3rem 2rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .cta h2 {
+            margin-bottom: 1rem;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background-color: #4285f4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .button2 {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background-color: #4285f4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            border:2px solid white;
+            transition: transform 0.2s;
+        }
+        .button:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1f2e;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        .image2{
+            border: 2px solid #335888;
+            width: 95%;
+            height: 95%;
+            border-radius: 8px;
+        }
+        .text-p{
+            
+        }
+        .logo{
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            flex:1;
+        }
+        .test{
+            background-color: rgb(0, 60, 255);
+            width: 800px;
+            
+            border-radius: 8px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="real.png" class="logo"/></div>
+        <nav>
+            <a href="#">EPONGO</a>
+            <a href="#">JOSEPH_MARIE</a>
+            <a href="#">24591</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Website Made By EPONGO JOSEPH</h1>
+            <p>This website is just a website test to show what I have learned in Web Design. </p>
+            <a href="#" class="button">Sign up</a>
+        </div>
+        <div class="hero-image"> 
+            <img src="1.jpeg" class="image"/>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="text-title2">Just some pictures I picked from my laptop</h2>
+        <div class="features-grid">
+            
+            <div class="feature-card">
+
+                <img src="real.png" class="image2"/>
+                <p class="text-p">Here is the best club in the world</p>
+            </div>
+            <div class="feature-card">
+                <img src="stock.jpeg" class="image2"/>
+                <p class="text-p">An inventory management system enables businesses to track goods through the supply chain</p>
+            </div>
+            <div class="feature-card">
+                <img src="gmao.jpeg" class="image2"/>
+                <p class="text-p">La gestion de maintenance assistée par ordinateur (souvent abrégée en GMAO)</p>
+            </div>
+            <div class="feature-card">
+                <img src="commerce.jpeg" class="image2"/>
+                <p class="text-p">E-commerce (electronic commerce) </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <blockquote>
+            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+        </blockquote>
+        <cite>-Thor, God of Thunder</cite>
+    </section>
+
+    <section class="cta">
+        <div class="test">
+            <h2>Call to action! It's time!</h2>
+            <p>Sign up for our product by clicking that button right over there!</p>
+            <a href="#" class="button2">Sign up</a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
+</body>
+</html>
